@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link to="/achievments" className="hover:text-green-300">Achievements</Link>
           </li>
           <li>
-            <Link to="/volunteer" className="hover:text-green-300">Join Us</Link>
+            <Link to="/joinus" className="hover:text-green-300">Join Us</Link>
           </li>
           <li>
             <Link to="/donate" className="hover:text-yellow-300 font-semibold">Donate</Link>
@@ -65,11 +65,13 @@ const Navbar = () => {
 
           {/* User Profile Image */}
           <li>
+            <Link to="/about">
             <img
               src={pro1}
               alt="Profile"
               className="w-10 h-10 rounded-full object-cover border-2 border-white hover:border-yellow-300 cursor-pointer"
             />
+            </Link>
           </li>
         </ul>
       </div>
